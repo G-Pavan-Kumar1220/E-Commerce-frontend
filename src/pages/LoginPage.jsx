@@ -2,6 +2,8 @@ import React, { useState, useContext } from "react";
 import { Loginstateprovider } from "../Contex_API/LoginState";
 import { useNavigate } from "react-router-dom";
 import { Home } from "lucide-react";
+import { BackendAPI } from "../api/api";
+
 
 export default function LoginPage() {
   const [isLogin, setIsLogin] = useState(true);
@@ -65,7 +67,7 @@ export default function LoginPage() {
           };
 
       const response = await fetch(
-        `http://localhost:4000/api/${endpoint}`,
+        `${BackendAPI}/${endpoint}`,
         {
           method: "POST",
           headers: {
