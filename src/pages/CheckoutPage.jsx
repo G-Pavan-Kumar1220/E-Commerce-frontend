@@ -133,7 +133,7 @@ export default function CheckoutPage() {
     0
   );
 
-  const discount = 200;
+  const discount = 20;
 
   const deliveryCharge = 0;
 
