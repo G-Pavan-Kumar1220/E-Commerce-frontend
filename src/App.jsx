@@ -12,7 +12,7 @@ import ProductDetailPage from './pages/ProductDetailPage';
 import CheckoutPage from './pages/CheckoutPage';
 import OrderSuccessFullyPlaced from './pages/OrderSuccessFullyPlaced.jsx';
 import OrdersPage from './pages/OrdersPage.jsx';
-import Deals from './pages/deals.jsx';
+import Deals from './pages/Deals.jsx';
 import ContactUS from './pages/ContackUS.jsx';
 
 
